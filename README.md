@@ -35,6 +35,10 @@ All written as structured Table references (e.g. `Table1[[#This Row],[Clicks]]`)
 
 *Insight:* _Which channel delivers the best average Return on AD Spend, and why that matters for budget allocation._
 
+Recommendation:
+- YouTube gave significantly better and higher Return on Ad Spend than other channels.
+- More investment have to be done for more customer acquisition through other channels also.
+
 ---
 
 ### 2. Avg ROAS by Customer Segment & Campaign type
@@ -52,6 +56,11 @@ Avg Acquisition Cost, Avg ROI, Avg ROAS per campaign type.
 
 ![Campaign Type Summary](Screenshots/campaign-analysis.png)
 *Insight:* _Cost-efficiency comparison across campaign types — flags where spend is high but returns are low._
+
+For avg College Students in Tier 2 City Customer segment:
+- Avg Acquisition cost is much higher than the ROAS we get through `SEO` so we have to spend less on it and focus on more prominent profitable campaigns
+- Email Marketing and Influencer shows more ROAS in lesser cost. So the creative Emails and influencer promotions is actually grabbing more College Students and is profitable in diverse ways.
+
 
 ---
 
