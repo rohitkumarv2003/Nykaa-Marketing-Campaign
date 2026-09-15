@@ -1,9 +1,11 @@
-# Nykaa Marketing Campaign Analysis (Excel)
+# Nykaa Marketing Campaign Analysis (Excel & PowerBI)
 
-Excel-based analysis of 55,000+ marketing campaigns to evaluate channel, campaign type, and engagement performance using advanced formulas, Excel Tables, and pivot-style summaries.
+Excel-based analysis and PowerBI dashboarding of 55,000+ marketing campaigns to evaluate best channels, campaign type and engagement performance using advanced formulas, DAX based aggregation and pivot-style summaries.
 
-**File:** `Marketing_Campaign.xlsx`
-**Tools:** Excel (Tables, SUMIFS/AVERAGEIFS, INDEX-MATCH, PivotTables, Charts)
+**File:** [`Marketing_Campaign.xlsx`](Marketing_Campaign.xlsx)  &  [`Nykaa_Analysis.pbix`](./Nykaa_Analysis.pbix)
+
+**Tools:** Excel (Tables, SUMIFS/AVERAGEIFS, INDEX-MATCH, PivotTables, Charts) & PowerBi (Power Query, DAX, Measures, Time intelligence functions)
+
 **Data:** Kaggle-style synthetic marketing campaign dataset (Campaign ID, Channel, Revenue, ROI, Engagement Score, etc.)
 
 ---
@@ -23,6 +25,16 @@ Raw data lives in `Campaign_Dataset` as an Excel Table (`Table1`), with calculat
 | Profit Margin | `=Profit/Revenue` |
 
 All written as structured Table references (e.g. `Table1[[#This Row],[Clicks]]`) so they auto-fill for every new row.
+
+---
+## PowerBI Dashboards
+### Executive dashboard
+This dashboards overviews dynamic P&L, KPIs, etc. by language and Customer segment as filters.
+![Overview Dashboard](Screenshots/overview_dashboard.png)
+
+### Campaign Analysis
+This dashboard focuses in campaign performance, its contribution in sales and ad spend, analyzing profitable ways to design campaigns.
+![Campaign Analysis Dashboard](Screenshots/campaign_dashboard.png)
 
 ---
 
